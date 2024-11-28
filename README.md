@@ -53,4 +53,4 @@ Los disquetes no solo fueron una herramienta de almacenamiento, sino un símbolo
 
 ¡Dale un vistazo a cómo luce el disquete en acción!
 
-![Disquete en CSS](vista_previa_disquete.png)
+![Disquete en CSS](/vista_previa_disquete.png)
