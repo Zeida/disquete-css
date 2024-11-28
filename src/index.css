@@ -1,7 +1,7 @@
 :root{
   --grey-light:#c0c0c0;
   --grey-dark: #676666;
-  --white: #fff;
+  --white: #fff; /* no es necesario */
   --bg-color:#484848;
   --red:#a44747;
 }
@@ -45,6 +45,7 @@ body {
 }
 
 .diskette-bottom{
+  overflow: hidden;
   display:flex;
   flex-direction: row;
 }
@@ -53,9 +54,7 @@ body {
   display:flex;
   flex-direction: column;
   background-color:var(--white);
-  margin-top: 45px;
-  margin-right: 30px;
-  margin-left:80px;
+  margin: 45px 30px 0 80px;
   width: 340px;
   height: 320px;
   align-self:auto;
@@ -84,8 +83,6 @@ body {
   background-color:var(--white);
   height: 20px;
   width: 25px;
-  margin:15px;
-  margin-bottom: 40px;
-  margin-right:30px;
+  margin: 15px 30px 40px 0;
   align-self: flex-end;
 }
