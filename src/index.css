@@ -25,22 +25,27 @@ body {
   flex-direction: column;
   align-items:center;
   clip-path: polygon(85% 0, 100% 15%, 100% 100%, 0 100%, 0 0);
-  
+
 }
 
 .metal-sheet {
   width:250px;
   height:140px;
-  background: linear-gradient(to right, var(--grey-light), var(--grey-dark));
+  background: linear-gradient(to right, var(--grey-dark), var(--grey-light), var(--grey-dark));
   display:flex;
   justify-content: end;
+  align-items: center;
   border-radius: 0 0 10px 10px;
 }
 
+.metal-sheet:hover {
+  translate: -30px;
+}
+
 .metal-sheet .hole{
-  height: 85px;
-  width: 46px;
-  margin:20px;
+  height: 100px;
+  width: 60px;
+  margin: 30px 30px 15px;
   background: var(--bg-color);
 }
 
@@ -58,6 +63,7 @@ body {
   width: 340px;
   height: 320px;
   align-self:auto;
+  border:3px solid var(--red);
 
 }
 
@@ -68,7 +74,6 @@ body {
 
 .label-line.line{
   height: 1px;
-  width: 340px;
   margin-bottom: 40px;
   border-bottom: 2px solid var(--red);
 }
