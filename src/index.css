@@ -90,4 +90,6 @@ body {
   width: 25px;
   margin: 15px 30px 40px 0;
   align-self: flex-end;
+  box-shadow: -10px -10px 3px rgb(0 0 0 / 40%) inset;
+  border-radius:3px;
 }
