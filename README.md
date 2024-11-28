@@ -46,11 +46,3 @@ Si eres un fanático de lo retro y te gustaría aportar a este proyecto, ¡adela
 ## 🤔 **¿Por qué un disquete?**
 
 Los disquetes no solo fueron una herramienta de almacenamiento, sino un símbolo de una era. Un recordatorio de cómo almacenábamos nuestras ideas, juegos y memorias antes de que las nubes llegaran a "guardar" por nosotros. ¡Es hora de revivir esa nostalgia digital!
-
----
-
-## 🎨 **Vista previa**:
-
-¡Dale un vistazo a cómo luce el disquete en acción!
-
-![Disquete en CSS](/vista_previa_disquete.png)
